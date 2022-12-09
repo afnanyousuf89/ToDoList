@@ -45,16 +45,14 @@ function App() {
 			if (element.title === taskname) {
 				var index = MyTasks.indexOf(element);
 				if (index !== -1) {
-					MyTasks.splice(index, 1);
+					MyTasks.splice(index, 1)
+					setMyTaskList(MyTasks);
+					setMyTask(MyTasks);
 				}
 			}
 		});
 
-		setMyTask(MyTasks);
 
-		console.log(MyTasks);
-
-		//MyTasks = [...newList];
 	}
 
 
