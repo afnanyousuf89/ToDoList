@@ -1,0 +1,18 @@
+.wrapper{
+    display: grid;
+}
+
+.App {
+    display: flex;
+    justify-content: left; 
+}
+
+.btn-add {
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color:  rgba(33, 197, 82, 0.918);
+    cursor: pointer;
+}

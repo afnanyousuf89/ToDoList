@@ -1,0 +1,53 @@
+
+.single-task {
+	width: 20%;
+	text-align: left;
+	border-radius: 5px;
+	background-color: #576490;
+	margin: 10px;
+	padding: 10px;
+}
+
+.createdTime{
+	text-align: right;
+	color: #ccc;
+	float: right;
+}
+
+.timeToDo{
+	color: #000;
+	
+}
+
+.title{
+	
+}
+
+.description{
+	background-color: #7796cb;
+	padding: 2%;
+	color: #fff;
+	border-radius: 15px;
+	text-align: justify;
+	font-size: 10pt;
+	line-height: 15px;
+}
+
+.btns{
+	display: flex;
+	justify-content: space-between;
+}
+.delete,.update{
+	background-color: red;
+	width: 40%;
+	padding: 2%;
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.update{
+	background-color: green;
+}
+
